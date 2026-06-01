@@ -9,7 +9,7 @@ a -= 5
 print ("a -= 5 : ", a)
 # Multiplication Assignment
 a *= 5
-print ("a *= 5 : ", a)
+print ("a *= 5 : " , a)
 # Division Assignment
 a /= 5
 print ("a /= 5 : ",a)

@@ -32,13 +32,13 @@ print(text)
 
 
 st = "WsCubeTech"  #
-print(st[::])      #WsCubeTech
+print(st[2:4:])      #WsCubeTech
 print(st[0::])     #WsCubeTech
 print(st[0::1])    #WsCubeTech
 print(st[6::])     #Tech
 print(st[0:6:])    #WsCube
 print(st[::-1])    #hceTebuCsW
-print(st[-3::-1])  #eTebuCsW
+print(st[-3::1])  #eTebuCsW
 print(st[2:5:])    #Cub
 
 
@@ -49,7 +49,7 @@ print(n)
 
 st = "WsCubeTech"
 rev_st = st[::-1]
-print(rev_st)
+print(rev_st) 
 
 
 for i in "WsCubeTech":

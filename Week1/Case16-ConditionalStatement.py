@@ -25,7 +25,7 @@ print('This statement always executes')
 # next run
 print(" Next Run...")
 
-number = -5
+number = 0
 
 # Example: Python if…elif…else Statement
 if number > 0:
@@ -69,7 +69,7 @@ print(" Next Run...")
 
 number = 10
 
-if number > 0: print('Positive')
+if number > 0: print('Positive') 
 
 
 #Ternary Operator in Python if...else
@@ -110,8 +110,10 @@ print(" Next Run...")
 a = 200
 b = 33
 c = 500
-if a > b and c > a:
+if a > b and a > c:
   print("Both conditions are True")
+else:
+    print("It is flase")
 
 
 # next run
@@ -122,11 +124,14 @@ y = 5
 
 if x < y:                            # Truthy
     print('yes')
+else :
+    print("No")
 
 if y < x:                            # Falsy
      print('yes')
-
-
+else :
+    print("No")
+    
 if x:                                # Falsy
      print('yes')
 
