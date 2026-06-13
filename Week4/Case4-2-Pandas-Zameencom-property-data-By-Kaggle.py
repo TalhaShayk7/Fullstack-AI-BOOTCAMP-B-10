@@ -268,7 +268,7 @@ Renaming rows/columns"""
 # Copy array from list and add to DataFrame
 # 3477952;82;"https://www.zameen.com/Property/lahore_model_town_6_kanal_excellent_house_for_sale_in_model_town-347795-8-12.html";"House2";2200000002;"Model Town2";"Lahore2";"Punjab2";312.483868658082;742.325685501099;02;"6 Kanal2";"For Sale2";02;"07-17-2019";"Real Biz International2";"Usama Khan2"
 
-df.loc[len(df.index)] = [3477952,82,"https://www.zameen.com/Property/lahore_model_town_6_kanal_excellent_house_for_sale_in_model_town-347795-8-12.html","House2",2200000002,"Model Town2","Lahore2","Punjab2",312.483868658082,742.325685501099,2,"6 Kanal2","For Sale2",2,"07-17-2019","Real Biz International2","Usama Khan2"] 
+df.loc[len(df.index)] = [34757952,852,"https://www.zameen.com/Property/lahore_model_town_6_kanal_excellent_house_for_sale_in_model_town-347795-8-12.html","House24",422005000002,"Model Town24","Lahore2","Punjab2",5312.483868658082,742.325685501099,2,"6 Kanal2","For Sale2",2,"07-17-2019","Real Biz International2","Usama Khan2"] 
 print("Modified DataFrame - add a new row:")
 print(df)
 print()
@@ -394,7 +394,7 @@ print("Cleaned Data:\n",df_cleaned)
 
 
 # filling NaN values with 0
-df.fillna(0, inplace=True)
+df.fillna('0', inplace=True)
 
 print("\nData after filling NaN with 0:\n", df)
 
